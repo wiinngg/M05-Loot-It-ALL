@@ -1,5 +1,6 @@
-res://lessons/ship.tscn
+res://lessons/space_level.tscn
 res://addons/gdpractice/assets/theme.tres
 res://assets/ship_visual_effects/main_thruster/thruster_material.tres
 res://assets/background/space_material.tres
-res://lessons/ship.gd
+res://lessons/gem.tscn
+res://lessons/health_pack.tscn
