@@ -1,49 +1,15 @@
-[gd_scene load_steps=5 format=3 uid="uid://btkjymc78ap8d"]
+[gd_scene load_steps=4 format=3 uid="uid://btkjymc78ap8d"]
 
 [ext_resource type="PackedScene" uid="uid://dmv50krf4bo5r" path="res://lessons/ship.tscn" id="2_2j1u5"]
 [ext_resource type="PackedScene" uid="uid://bxfevggvxo634" path="res://assets/background/space_background.tscn" id="3_e6xy1"]
-[ext_resource type="PackedScene" uid="uid://o1ca06m0k4bk" path="res://lessons/health_pack.tscn" id="3_etm7e"]
-[ext_resource type="PackedScene" uid="uid://4clsvdvuyocx" path="res://lessons/gem.tscn" id="4_4rc43"]
+[ext_resource type="PackedScene" uid="uid://b1yl6aosq3kty" path="res://lessons/random_item_placer.tscn" id="3_etm7e"]
 
 [node name="Level" type="Node2D"]
 
 [node name="Ship" parent="." instance=ExtResource("2_2j1u5")]
-position = Vector2(946, 546)
+position = Vector2(387, 335)
 
 [node name="SpaceBackground" parent="." instance=ExtResource("3_e6xy1")]
 
-[node name="HealthPack" parent="." instance=ExtResource("3_etm7e")]
-position = Vector2(1129, 556)
-
-[node name="HealthPack2" parent="." instance=ExtResource("3_etm7e")]
-position = Vector2(715, 780)
-
-[node name="HealthPack3" parent="." instance=ExtResource("3_etm7e")]
-position = Vector2(687, 402)
-
-[node name="HealthPack4" parent="." instance=ExtResource("3_etm7e")]
-position = Vector2(1357, 858)
-
-[node name="HealthPack5" parent="." instance=ExtResource("3_etm7e")]
-position = Vector2(1712, 271)
-
-[node name="gem" parent="." instance=ExtResource("4_4rc43")]
-position = Vector2(796, 661)
-
-[node name="gem2" parent="." instance=ExtResource("4_4rc43")]
-position = Vector2(403, 505)
-
-[node name="gem3" parent="." instance=ExtResource("4_4rc43")]
-position = Vector2(1029, 276)
-
-[node name="gem4" parent="." instance=ExtResource("4_4rc43")]
-position = Vector2(546, 858)
-
-[node name="gem5" parent="." instance=ExtResource("4_4rc43")]
-position = Vector2(995, 747)
-
-[node name="gem6" parent="." instance=ExtResource("4_4rc43")]
-position = Vector2(1484, 524)
-
-[node name="gem7" parent="." instance=ExtResource("4_4rc43")]
-position = Vector2(518, 629)
+[node name="RandomItemPlacer" parent="." instance=ExtResource("3_etm7e")]
+position = Vector2(953, 525)

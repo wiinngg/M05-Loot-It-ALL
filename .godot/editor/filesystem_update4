@@ -4,3 +4,5 @@ res://assets/ship_visual_effects/main_thruster/thruster_material.tres
 res://assets/background/space_material.tres
 res://lessons/gem.tscn
 res://lessons/health_pack.tscn
+res://lessons/random_item_placer.gd
+res://lessons/random_item_placer.tscn
