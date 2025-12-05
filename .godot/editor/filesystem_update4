@@ -6,3 +6,4 @@ res://lessons/ship.gd
 res://lessons/space_level.tscn
 res://lessons/health_pack.tscn
 res://lessons/gem.tscn
+res://lessons/item.gd
