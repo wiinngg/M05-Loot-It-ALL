@@ -19,4 +19,3 @@ shape = SubResource("CircleShape2D_nak5q")
 
 [node name="HealthPack" parent="." instance=ExtResource("3_ty4yi")]
 position = Vector2(1129, 556)
-collision_layer = 2
