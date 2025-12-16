@@ -1,8 +1,9 @@
-[gd_scene load_steps=5 format=3 uid="uid://4clsvdvuyocx"]
+[gd_scene load_steps=6 format=3 uid="uid://4clsvdvuyocx"]
 
 [ext_resource type="Script" uid="uid://24ln0ahcx7f8" path="res://lessons/item.gd" id="1_ulrl0"]
 [ext_resource type="Texture2D" uid="uid://d0bh8am2qd005" path="res://assets/gem_icon.png" id="2_ulrl0"]
 [ext_resource type="PackedScene" uid="uid://o1ca06m0k4bk" path="res://lessons/health_pack.tscn" id="3_ty4yi"]
+[ext_resource type="AudioStream" uid="uid://dpfw26v342k0u" path="res://assets/audio/gem.ogg" id="4_oxn73"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_nak5q"]
 radius = 27.66
@@ -19,3 +20,7 @@ shape = SubResource("CircleShape2D_nak5q")
 
 [node name="HealthPack" parent="." instance=ExtResource("3_ty4yi")]
 position = Vector2(1129, 556)
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." groups=["gem"]]
+stream = ExtResource("4_oxn73")
+volume_db = 3.817

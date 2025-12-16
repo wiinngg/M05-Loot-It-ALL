@@ -3,7 +3,7 @@ res://addons/gdpractice/assets/theme.tres
 res://assets/ship_visual_effects/main_thruster/thruster_material.tres
 res://assets/background/space_material.tres
 res://lessons/ship.gd
+res://lessons/random_item_placer.tscn
 res://lessons/space_level.tscn
 res://lessons/health_pack.tscn
 res://lessons/gem.tscn
-res://lessons/item.gd
