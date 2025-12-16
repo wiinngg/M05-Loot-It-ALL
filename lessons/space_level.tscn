@@ -14,9 +14,6 @@ position = Vector2(303, 510)
 
 [node name="SpaceBackground" parent="." instance=ExtResource("3_e6xy1")]
 
-[node name="RandomItemPlacer" parent="." instance=ExtResource("3_etm7e")]
-position = Vector2(960, 540)
-
 [node name="gem" parent="." instance=ExtResource("4_4rc43")]
 position = Vector2(302, 316)
 
@@ -30,3 +27,5 @@ position = Vector2(651, -176)
 stream = ExtResource("6_kd2gs")
 volume_db = -18.583
 autoplay = true
+
+[node name="RandomItemPlacer" parent="." instance=ExtResource("3_etm7e")]
